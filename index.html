@@ -1,0 +1,26 @@
+<html lang "en">
+  <head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <div id="Title2">
+      <h1 class="Title1">Number&nbsp</h1> 
+      <h1 class="Title3">Guesser</h1>
+    </div>
+    <div class="bodydiv">
+  <input  type="number" id="guessNumber" input aria-label="Enter Your Guess" placeholder="Enter Your Guess" size="15" maxlength=2 align="center"</input>
+    </br>
+<div class="bothbuttons">
+  <button class="guessOne" id="darkGrayButton" disabled="true">Guess</button>
+  <button class="clear" disabled="true" id="darkGrayButton2">Clear</button>
+    </br>
+</div>
+  <h3>Your last guess was...</h3>
+    <p> class="lastGuess">0</p>
+  <h3 class="response"></h3>
+    <button class="reset" id="darkGrayButton3" disabled="true" onClick="history.go(0)"">Reset</button>
+<div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
